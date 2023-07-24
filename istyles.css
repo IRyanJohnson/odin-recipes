@@ -52,8 +52,15 @@ em{
     
 }
 
-ul li {
+.recipe-card ul {
     list-style-type: none;
+    background-color: rgb(235, 235, 235);
+    border: 2px groove;
+    width: auto;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 5px;
+    padding: 2px;
 }
 
 .recipe-card ul:hover {
@@ -66,7 +73,7 @@ ul li {
     margin: 0px 5px;
     display: inline-block;
     color: white;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    /*box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);*/
     vertical-align: top;
 }
 
